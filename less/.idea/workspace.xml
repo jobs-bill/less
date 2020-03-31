@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38b31f5c-4b8e-403b-95ff-23608dbe8059" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/前端文件.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jQuery/.idea/jQuery.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/.sass-cache/8758ce2a00622307b64d79a8dd382e09d30ed874/demo.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/demo.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/demo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/democ.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../node/.idea/node.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../注册登录/.idea/注册登录.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../项目/.idea/项目.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../项目二/.idea/项目二.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585548763753</updated>
       <workItem from="1585548769272" duration="3641000" />
-      <workItem from="1585624752690" duration="2257000" />
+      <workItem from="1585624752690" duration="2918000" />
     </task>
     <task id="LOCAL-00001" summary="less 第一次提交">
       <created>1585551509955</created>
@@ -76,7 +64,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585551509955</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="less 第一次提交">
+      <created>1585635214877</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585635214877</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,18 +96,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="less 第一次提交" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="23" key="CommitChangelistDialog2" timestamp="1585551509468">
+    <state x="361" y="23" key="CommitChangelistDialog2" timestamp="1585635214277">
       <screen x="0" y="23" width="1680" height="844" />
     </state>
-    <state x="361" y="23" key="CommitChangelistDialog2/0.23.1680.844@0.23.1680.844" timestamp="1585551509468" />
+    <state x="361" y="23" key="CommitChangelistDialog2/0.23.1680.844@0.23.1680.844" timestamp="1585635214277" />
     <state x="353" y="176" key="EditFileWatcherDialog" timestamp="1585625001108">
       <screen x="0" y="23" width="1680" height="844" />
     </state>
     <state x="353" y="176" key="EditFileWatcherDialog/0.23.1680.844@0.23.1680.844" timestamp="1585625001108" />
-    <state x="677" y="328" width="325" height="346" key="Github.ShareDialog" timestamp="1585551969181">
+    <state x="677" y="328" width="325" height="346" key="Github.ShareDialog" timestamp="1585635249485">
       <screen x="0" y="23" width="1680" height="844" />
     </state>
-    <state x="677" y="328" width="325" height="346" key="Github.ShareDialog/0.23.1680.844@0.23.1680.844" timestamp="1585551969181" />
+    <state x="677" y="328" width="325" height="346" key="Github.ShareDialog/0.23.1680.844@0.23.1680.844" timestamp="1585635249485" />
     <state x="233" y="23" key="SettingsEditor" timestamp="1585625003981">
       <screen x="0" y="23" width="1680" height="844" />
     </state>
