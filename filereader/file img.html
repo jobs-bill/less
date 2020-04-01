@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            border: deeppink 1px solid;
+        }
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<label for="">读取文件</label>
+<input type="file" id="input1">
+<div class="box">
+    <img src="" alt="" id="img">
+</div>
+</body>
+<script>
+var input1 = document.getElementById('input1');
+var img = document.getElementById('img');
+if (typeof FileReader==="undefined"){
+    input1.disabled = true;
+}else{
+    // 给input1添加监听事件
+    input1.addEventListener('change',readFile,false);
+}
+function readFile() {
+    console.log(this.files);
+    var file = this.files[0];
+    if (file){
+        var reader = new FileReader();
+        reader.readAsDataURL(input1.files[0]);//发起异步请求
+        reader.onload = function(){
+            //读取完成后，将结果赋值给img的src
+            img.src = this.result;
+        }
+    }
+}
+
+</script>
+</html>

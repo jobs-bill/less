@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box1{
+            width: 200px;
+            height: 200px;
+            border: 1px solid deeppink;
+        }
+    </style>
+</head>
+<body>
+<label for="">读取文件</label>
+<input type="file" id="input1">
+<div class="box"></div>
+<div class="box1">
+
+</div>
+</body>
+<script>
+    var input1= document.getElementById("input1");
+    var box1 = document.getElementsByClassName("box1")[0];
+
+    //检测浏览器的是否支持filereader
+    if (typeof FileReader==="undefined"){
+        input1.disabled = true;
+    }else{
+        // 给input1添加监听事件
+        input1.addEventListener('change',readFile,false);
+    }
+    // 定义一个readfile函数，完成读取文件
+    function readFile(){
+        console.log(this.files);
+        var file = this.files[0];
+        if (file){
+            var reader = new FileReader();
+            reader.readAsText(file,"utf8");
+            reader.onload = function () {
+                console.log(reader);
+                // console.log(reader.result);
+                box1.innerHTML = reader.result;
+            }
+        }
+    }
+
+    /*input1.onchange = function () {
+        console.log(this.files);
+        var file = this.files[0];
+        if (file){
+            var reader = new FileReader();
+            reader.readAsText(file,"utf8");
+            reader.onload = function () {
+                console.log(reader);
+                // console.log(reader.result);
+                box1.innerHTML = reader.result;
+            }
+        }
+    }*/
+</script>
+</html>

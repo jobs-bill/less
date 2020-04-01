@@ -55,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585548763753</updated>
       <workItem from="1585548769272" duration="3641000" />
-      <workItem from="1585624752690" duration="2918000" />
+      <workItem from="1585624752690" duration="3299000" />
     </task>
     <task id="LOCAL-00001" summary="less 第一次提交">
       <created>1585551509955</created>
@@ -71,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585635214877</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="less 第一次提交">
+      <created>1585638085804</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585638085804</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,10 +103,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="less 第一次提交" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="23" key="CommitChangelistDialog2" timestamp="1585635214277">
+    <state x="340" y="29" key="#File_Watchers" timestamp="1585638135017">
       <screen x="0" y="23" width="1680" height="844" />
     </state>
-    <state x="361" y="23" key="CommitChangelistDialog2/0.23.1680.844@0.23.1680.844" timestamp="1585635214277" />
+    <state x="340" y="29" key="#File_Watchers/0.23.1680.844@0.23.1680.844" timestamp="1585638135017" />
+    <state x="361" y="23" key="CommitChangelistDialog2" timestamp="1585638085053">
+      <screen x="0" y="23" width="1680" height="844" />
+    </state>
+    <state x="361" y="23" key="CommitChangelistDialog2/0.23.1680.844@0.23.1680.844" timestamp="1585638085053" />
     <state x="353" y="176" key="EditFileWatcherDialog" timestamp="1585625001108">
       <screen x="0" y="23" width="1680" height="844" />
     </state>
@@ -112,6 +123,10 @@
       <screen x="0" y="23" width="1680" height="844" />
     </state>
     <state x="233" y="23" key="SettingsEditor/0.23.1680.844@0.23.1680.844" timestamp="1585625003981" />
+    <state x="340" y="117" key="Vcs.Push.Dialog.v2" timestamp="1585638091385">
+      <screen x="0" y="23" width="1680" height="844" />
+    </state>
+    <state x="340" y="117" key="Vcs.Push.Dialog.v2/0.23.1680.844@0.23.1680.844" timestamp="1585638091385" />
     <state x="589" y="351" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585551453601">
       <screen x="0" y="23" width="1680" height="844" />
     </state>
